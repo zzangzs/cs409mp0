@@ -1,11 +1,22 @@
 /* Your CSS here. */
 .outer {
     height: auto;
+    position:relative;
 }
 .inner {
+    width: 600px;
+    padding: 1em;
+    height: auto;
     background-color: lightskyblue;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .profile {
     width: 300px;
     margin: 0 auto;
+    img {
+        width: 150px;
+        height: 150px;
+    }
 }
