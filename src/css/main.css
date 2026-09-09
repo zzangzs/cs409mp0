@@ -1,5 +1,11 @@
 /* Your CSS here. */
-
+.outer {
+    height: auto;
+}
+.inner {
+    background-color: lightskyblue;
+}
 .profile {
+    width: 300px;
     margin: 0 auto;
 }
