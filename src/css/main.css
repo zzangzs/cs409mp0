@@ -1,20 +1,26 @@
 /* Your CSS here. */
 .outer {
-    height: auto;
-    position:relative;
+    min-height: 100vh;
+    position: relative;
 }
 .inner {
-    width: 600px;
+    width: 90%;
+    max-width: 1000px;
     padding: 1em;
     height: auto;
+    
     background-color: lightskyblue;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 .profile {
     width: 300px;
-    margin: 0 auto;
+    
     img {
         width: 150px;
         height: 150px;
